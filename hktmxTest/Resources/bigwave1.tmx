@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="240" height="20" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="tileset_placeholder" tilewidth="64" tileheight="64">
+  <image source="tileset_placeholder.png" trans="ff00ff" width="1024" height="2048"/>
+  <tile id="0">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="9"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="10"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="6"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="7"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="8"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="11"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="12"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="13"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="17"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="18"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="14"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="15"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="16"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="3"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="4"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="5"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="25"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="26"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="20"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="21"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="36"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="23"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="24"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="37"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="1"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="2"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="28"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="29"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="44"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="31"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="38"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="40"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="19"/>
+   </properties>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="22"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="45"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="47"/>
+   </properties>
+  </tile>
+  <tile id="39">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="48"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="27"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="Delay" value="0.2"/>
+    <property name="Next" value="30"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="32"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="56"/>
+   </properties>
+  </tile>
+  <tile id="55">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="39"/>
+   </properties>
+  </tile>
+  <tile id="64">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="66"/>
+   </properties>
+  </tile>
+  <tile id="65">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="67"/>
+   </properties>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="68"/>
+   </properties>
+  </tile>
+  <tile id="67">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="65"/>
+   </properties>
+  </tile>
+  <tile id="68">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="70"/>
+   </properties>
+  </tile>
+  <tile id="69">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="71"/>
+   </properties>
+  </tile>
+  <tile id="70">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="72"/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="69"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="74"/>
+   </properties>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="75"/>
+   </properties>
+  </tile>
+  <tile id="74">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="76"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="73"/>
+   </properties>
+  </tile>
+  <tile id="76">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="78"/>
+   </properties>
+  </tile>
+  <tile id="77">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="79"/>
+   </properties>
+  </tile>
+  <tile id="78">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="80"/>
+   </properties>
+  </tile>
+  <tile id="79">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="81"/>
+   </properties>
+  </tile>
+  <tile id="80">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="82"/>
+   </properties>
+  </tile>
+  <tile id="81">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="77"/>
+   </properties>
+  </tile>
+  <tile id="82">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="84"/>
+   </properties>
+  </tile>
+  <tile id="83">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="85"/>
+   </properties>
+  </tile>
+  <tile id="84">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="86"/>
+   </properties>
+  </tile>
+  <tile id="85">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="87"/>
+   </properties>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="88"/>
+   </properties>
+  </tile>
+  <tile id="87">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="83"/>
+   </properties>
+  </tile>
+  <tile id="88">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="90"/>
+   </properties>
+  </tile>
+  <tile id="89">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="91"/>
+   </properties>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="92"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="93"/>
+   </properties>
+  </tile>
+  <tile id="92">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="94"/>
+   </properties>
+  </tile>
+  <tile id="93">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="89"/>
+   </properties>
+  </tile>
+  <tile id="94">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="96"/>
+   </properties>
+  </tile>
+  <tile id="95">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="97"/>
+   </properties>
+  </tile>
+  <tile id="96">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="98"/>
+   </properties>
+  </tile>
+  <tile id="97">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="99"/>
+   </properties>
+  </tile>
+  <tile id="98">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="100"/>
+   </properties>
+  </tile>
+  <tile id="99">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="95"/>
+   </properties>
+  </tile>
+  <tile id="100">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="102"/>
+   </properties>
+  </tile>
+  <tile id="101">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="103"/>
+   </properties>
+  </tile>
+  <tile id="102">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="104"/>
+   </properties>
+  </tile>
+  <tile id="103">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="105"/>
+   </properties>
+  </tile>
+  <tile id="104">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="106"/>
+   </properties>
+  </tile>
+  <tile id="105">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="101"/>
+   </properties>
+  </tile>
+  <tile id="106">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="108"/>
+   </properties>
+  </tile>
+  <tile id="107">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="109"/>
+   </properties>
+  </tile>
+  <tile id="108">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="110"/>
+   </properties>
+  </tile>
+  <tile id="109">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="111"/>
+   </properties>
+  </tile>
+  <tile id="110">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="112"/>
+   </properties>
+  </tile>
+  <tile id="111">
+   <properties>
+    <property name="Delay" value="0.1"/>
+    <property name="Next" value="107"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="layer" width="240" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VMQrAIAwFUM9W62Dvf6AuEaSQwaVkeG/5GDK4hN8aAAAAAAAAAAAAAAAAAABQyZPM719/AZy6InvkiJyf9z4Dalr3vO62J3u6GerIulXnQl0v5EpAFABLAAA=
+  </data>
+ </layer>
+</map>
